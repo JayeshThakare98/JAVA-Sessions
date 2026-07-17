@@ -18,6 +18,6 @@ public static void main(String[] args) {
 	System.out.println(carObj3.model);
 	System.out.println(carObj3.name);
 	System.out.println(carObj3.type);
-
+// addition(1,2,3) ; 
 }
 }
