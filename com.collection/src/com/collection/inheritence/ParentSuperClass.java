@@ -24,5 +24,13 @@ public class ParentSuperClass {
 		dpObj.eat(); // Grand Parent
 		dpObj.sleep(); // self
 		
+		Horse horse = new Horse() ; 
+		horse.running(); // self
+		horse.eat() ; // parent
+		
+		Donkey donkey = new Donkey() ; 
+		donkey.walking() ; // self
+		donkey.eat(); // parent
+		
 	}
 }
