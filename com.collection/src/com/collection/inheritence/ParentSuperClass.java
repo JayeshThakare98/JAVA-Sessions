@@ -23,7 +23,7 @@ public class ParentSuperClass {
 		dpObj.bark(); //parent
 		dpObj.eat(); // Grand Parent
 		dpObj.sleep(); // self
-		
+//		dpObj.dance() ; 
 		Horse horse = new Horse() ; 
 		horse.running(); // self
 		horse.eat() ; // parent
@@ -32,5 +32,8 @@ public class ParentSuperClass {
 		donkey.walking() ; // self
 		donkey.eat(); // parent
 		
+		Mosquito mosquito = new Mosquito() ; 
+		mosquito.fly();
+		mosquito.eat();
 	}
 }
