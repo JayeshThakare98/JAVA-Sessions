@@ -7,14 +7,15 @@ public class Car {
 	String type;
 
 	// Constructor -> Default , Parameterised
-	// Constructor is also a method with same name of the class andddont have any
+	// Constructor is also a method with same name of the class and 
+//	dont have any
 	// return type .
 	// Default constructor
 	// Static key word -> variable , method , block
 	// Instance variable -> variable which are written inside a class but out side
 	// a method is known ar Instance variable
 	public Car() {
-		super();
+		super();// to refeer the parent class object
 	}
 
 //  Parameterised Constructor 
