@@ -38,7 +38,7 @@ public static void main(String[] args) {
 	System.out.println("Traversing A list with Iterator");
 	Iterator <String> itr = studentList.iterator();
 	while(itr.hasNext()) {
-		String i = itr.next();
+		String i = itr.next(); // i++
 		System.out.println(i);
 	}
 }
