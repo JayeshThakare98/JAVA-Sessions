@@ -18,10 +18,15 @@ public class StackClass {
 		}
 	}
 /*
- * Quick recap :-  vectors are as a String 
+ * Quick recap :-  vectors are as a String, integer 
  * Array List - > ArrayList <String> al = new ArrayList<>(); 
  * Linklist ->  LinkList <String> lL = new LinkList<>();
- * Stack -> Stack <String> stk = new Stack<>() ;  
+ * Stack -> Stack <String> stk = new Stack<>() ; 
+ * 
+ *  integer
+ *  ArrayList <Integer> nums = new ArrayList<>();
+ *  LinkList<Integer> nums = new LinkList<>();
+ *  Stack <Intger> nums = new Stack<>();
  * 
  * Advance data manupalation 
  * List <String> list1 = new  ArrayList<>();
