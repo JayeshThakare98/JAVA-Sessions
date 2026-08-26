@@ -11,11 +11,11 @@ public class Student {
 		super();
 	}
 
-	public Student(int roll, String name, String branch) {
+	public Student(int roll, String name, String bloodGroup) {
 		super();
 		this.roll = roll;
 		this.name = name;
-		this.bloodGroup = branch;
+		this.bloodGroup = bloodGroup;
 	}
 
 	public int getRoll() {
